@@ -69,11 +69,12 @@ void main() {
     await tester.pump(const Duration(milliseconds: 300));
     await save('screenshot_2.png');
 
-    await go(app(1));
+    await tester.tap(find.text('Comparar'));
+    await tester.pump(const Duration(milliseconds: 300));
     await save('screenshot_3.png');
 
-    await tester.enterText(find.byType(TextField).at(4), '30');
-    await tester.enterText(find.byType(TextField).at(5), '250');
+    await tester.enterText(find.byType(TextField).at(0), '30');
+    await tester.enterText(find.byType(TextField).at(1), '250');
     await tester.pump(const Duration(milliseconds: 300));
     await save('screenshot_4.png');
   });
