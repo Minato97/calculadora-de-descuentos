@@ -1,0 +1,9 @@
+Nombre: Calculadora de Descuentos
+Corta: Calcula descuentos, IVA y compara ofertas para ahorrar más.
+Larga:
+Calculadora de Descuentos te dice cuánto pagarás de verdad. Aplica hasta dos descuentos encadenados, suma el IVA y mira cuánto ahorras.
+
+• Descuentos encadenados (por ejemplo 30% + 10%) con descuento combinado real.
+• IVA o impuesto opcional.
+• Comparador de ofertas por precio por unidad: descubre cuál conviene más.
+• Resultados al instante, modo claro y oscuro. Sin registro. Contiene anuncios.
